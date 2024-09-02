@@ -1,6 +1,6 @@
 {
   "version": 1,
   "description":"Built with @cloudflare/next-on-pages@1.10.0.",
-  "include": ["/"],
-  "exclude": ["/*"]
+  "include": ["/*"],
+  "exclude": ["/"]
   }

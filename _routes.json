@@ -4,14 +4,14 @@
   "include": ["/*" ],
 
   "exclude": [
-          "/*/**",
+          "/*",
           "/build/*",
           "/*.png",
           "/*.svg",
           "/*.webp",
           "/*.ico",
           "/_next/static/*",
-          "/images/**",
-          "/public/**"
+          "/images/*",
+          "/public/*"
          ]
   }

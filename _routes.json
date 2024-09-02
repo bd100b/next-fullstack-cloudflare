@@ -4,7 +4,6 @@
   "include": ["/*" ],
 
   "exclude": [
-        "/*",
           "/*.png",
           "/*.svg",
           "/*.webp",

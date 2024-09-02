@@ -2,7 +2,7 @@
 "use client";
 import MessageForm from "@/components/message-form";
 
-export const runtime = "edge";
+// export const runtime = "edge";
 
 export default async function Home() {
   // const messages = await getMessagesFromDatabase();

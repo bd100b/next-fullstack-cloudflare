@@ -1,4 +1,5 @@
 // import { getMessagesFromDatabase } from "@/actions/get-messages-from-database";
+"use client";
 import MessageForm from "@/components/message-form";
 
 export const runtime = "edge";

@@ -4,11 +4,11 @@
   "include": ["/*" ],
 
   "exclude": [
-        "/_next/static/*",
-        "/.vercel/output/*",
-        "/public/*",
-        "/static/*",
-        "/images/*",
-        "/plugins/*"
+        "/build/*",
+          "/*.png",
+          "/*.svg",
+          "/*.webp",
+          "/*.ico",
+           "/_next/static/*"
          ]
   }

@@ -1,15 +1,6 @@
 {
   "version": 1,
   "description":"Built with @cloudflare/next-on-pages@1.10.0.",
-  "include": ["/*" ],
-
-  "exclude": [
-        "/build/*",
-        "/.vercel/output/static/*",
-          "/*.png",
-          "/*.svg",
-          "/*.webp",
-          "/*.ico",
-           "/_next/static/*"
-         ]
+  "include": ["/"],
+  "exclude": ["/*"]
   }

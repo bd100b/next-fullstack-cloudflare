@@ -5,6 +5,7 @@
 
   "exclude": [
         "/build/*",
+        "/.vercel/output/static/*",
           "/*.png",
           "/*.svg",
           "/*.webp",

@@ -5,6 +5,7 @@
 
   "exclude": [
           "/",
+          "/*.html",
           "/*.png",
           "/*.svg",
           "/*.webp",

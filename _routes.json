@@ -9,6 +9,8 @@
           "/*.svg",
           "/*.webp",
           "/*.ico",
-           "/_next/static/*"
+          "/_next/static/*",
+          "/images/**",
+          "/public/**"
          ]
   }

@@ -3,16 +3,17 @@
 import { useState } from "react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
-import { addMessageToDatabase } from "@/actions/add-message-to-database";
 
 export default function MessageForm() {
   const [message, setMessage] = useState("");
 
   async function handleAddMessageToDatabase() {
-    const response = await addMessageToDatabase(message);
-
+    const response = await fetch('https://oddsvers-tg-server-public.odvers1.workers.dev?env=stage&id=football-39&timestamp=1721847374');
+    const data = await response.json();
+    console.log(data);
+    
     if (response.ok) {
-      setMessage("");
+      setMessage(data);
     }
   }
   return (
